@@ -1,4 +1,4 @@
-version: '3.7'
+version: '2'
 
 services:
   postgres:
@@ -25,7 +25,6 @@ services:
       - '.:/petmanager'
     volumes_from:
       - box
-
 
   app:
     depends_on:
